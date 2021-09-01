@@ -1,0 +1,147 @@
+
+Agile and Scrum Methodology:
+
+Software Development Life Cycle:
+	- Gather the Requirements
+	- Design
+	- Coding
+	- Testing
+	- Maintanance
+	
+---------------------------------------
+
+There is a team of 7 people for 1 project.
+
+	3 developers
+	2 Testers
+	1 QA
+	
+----------------------------------------
+
+Agile Scrum Methodology is a project management system that works with 
+incremental approach. Each Iteration in incremental approach consts of 2-4 week of sprint time.
+
+Agile Team: Developers + Testers + Product Manager
+
+Epic: Large and High Level Requirement:
+
+Features: We have to derived Epic into smaller pieces called Features.
+Features are also knowns as collection of stories to solve problem.
+
+A banking Requirement (Epic)
+
+Withdraw Amount, Open Fixed Deposit Account, Fund Transfer (Features)
+
+-------------------------------------------------------------
+
+Roles in Agile: 
+
+	1. Product Owner: Responsible for getting requirements from Customer/StakeHolders. 
+	
+	2. Scrum Master: 
+		Fascillitator for an agile development team.
+		SM is not a developer/tester/product owner/manager.
+		Sm is an intermediator between Product Owner and Scrum Team.
+	
+	3. Scrum Team: Developers + Testers
+		Who works for a goal to deliver the product.
+		
+------------------------------------------------------------		
+
+Sprint:  A duration in which a given business requirement gets clear.
+
+Customer --> Product Owner --> Scrum Master to conduct meeting with scrum team.
+
+Scum Team decides the duration i.e. 9 months. 
+
+Thus, we decides in the scrum planning to create following springs:
+
+	3 sprints	3 Sprints 	3 Sprints
+	1st Month	2nd Month	3rd Month
+	
+-------------------------------------------------------------------
+
+JIRA Tool: 
+	- Managing Agile Process
+	- Helps in
+		- Creating Backlogs
+		- Creating Sprints
+		- Creating Tasks
+		- Updating Stories and so on.
+		
+---------------------------------------------------------------
+
+	Git: VCS (Version Control System)
+	- To track/check changes in files and folders.
+	- To collaborate in teams.
+	
+	Two Types of VCS:
+		- Centralized VCS
+		- Distributed VCS
+		
+	GIT is a Distributed and Open Source Version Control System.
+	
+-- To check whether git is installed or not:
+	
+	git --version
+
+--------------------------------------------------------------
+
+	GIT != GITHUB
+	
+	GIT is a command-line VCS to work on local workstations.
+	
+	GITHUB is a website that manages the server repository with any VCS.
+
+---------------------------------------------------------------
+
+Fundamental Steps:
+
+1. Create Local Repository, Open folder location and Initialize GIT:
+
+	git init
+
+2. Add certain files or folders into local repo and check status:
+
+	git status
+	
+3. To track the pending files or folder:
+
+	git add . (Run this one)
+	git add .txt
+	git add demo-two.txt	
+
+4. To check status of tracked and untracked files again:
+
+	git status
+	
+5. To commit the tracked files and folders:
+
+	git commit -m "First Commit"
+
+6. To push committed changes to server:
+
+	git remote add origin https://github.com/mgunwani/demo-git-project.git
+
+	git push -u origin master
+--------------------------------------------------------------
+7. Make changes and the go inside the folder where changes are made(empty folder is not pushed)
+   
+   	git add .
+8.To check status of tracked and untracked files again:
+
+	git status
+	
+9.To commit the tracked files and folders:
+
+	git commit -m "Second Commit"
+
+10.To push committed changes to server:
+	git push -u origin master
+-------------------------------------------------------------------------------
+
+
+
+
+	
+	
